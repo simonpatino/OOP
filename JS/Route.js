@@ -1,6 +1,7 @@
-function Rounte() {
-
-    this.id;
-    this.init;
-    this.end;
+class Rounte {
+    constructor() {
+        this.id;
+        this.init;
+        this.end;
+}
 }
