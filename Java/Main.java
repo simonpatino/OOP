@@ -1,11 +1,14 @@
 class Main {
     public static void main(String[] args) {
         System.out.println("hola mundo");
-        Car carrito = new Car("ASM212", new Account("mafalda","as"));
-        System.out.println(carrito.driver.name);
+        UberPool carrito = new UberPool("ASM212", new Account("mafalda","as"), "toyoya", "2022  ");
+        System.out.println(carrito.model);
 
-         carrito.passengenger = 5;
-         carrito.printDataCar();
+         //
+         
+        //carrito.passengenger = 1;
+        carrito.setPassenger(5);
+        carrito.printDataCar();
         // System.out.println("Car License: " + carrito.license);
         // carrito.printDataCar();
 
@@ -16,7 +19,6 @@ class Main {
         //  System.out.println("Driver name " + carrito2.driver) ;
 
         // carrito.printDataCar();
-
 
     }
 }
